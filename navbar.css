@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.navbar {
+  top: 0;
+  width: 1300px;
+  height: 60px;
+  background: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: 10px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;          
+  margin-left: auto;  
+  padding-right: 40px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  color: white;
+  background-color: grey;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.nav-links li a:hover {
+  background-color: white;
+  color: black;
+}
+
+#content {
+  padding: 80px 20px;
+}
+
+.logo {
+  margin-right: auto;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px black;
+  font-weight: bold;
+  background-color: grey;
+  border-radius: 50%;
+  padding: 10px 7px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 20px;
+  text-align: center;
+  min-height: 300px;
+}
+
+section h1 {
+  font-size: 32px;
+  color: white;
+  margin: 0;
+}
+
+section p {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.link-hero {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link-hero:hover {
+  background-color: grey;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+footer {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.footer-card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  display: flex;              /* aktifkan flexbox */
+  flex-direction: column;     /* susun isi vertikal */
+  justify-content: space-between; /* biar tombol dorong ke bawah */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.footer-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.footer-card p {
+  font-size: 14px;
+  margin-bottom: 10px; /* jarak 10px dari tombol */
+}
+
+.footer-card a {
+  margin-top: auto;           /* dorong tombol ke bawah */
+  background: #fff;
+  color: #222;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-card a:hover {
+  background: grey;
+  color: white;
+}

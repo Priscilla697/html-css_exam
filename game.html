@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Game</title>
+	<link rel="stylesheet" href="navbar.css">
+</head>
+	<style>
+		.card {
+			width: 150px;
+			border: 1px solid red;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			background-color: white;
+			overflow: hidden;
+			margin: 5px;
+			text-align: center;
+			border-radius: 15px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 250px;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		
+		.card-img {
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+			border-radius: 50%;
+			padding-top: 10px;
+			margin-left: 15px;
+			flex-shrink: 0;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.card-title {
+			font-size: 25px;
+			color: black;
+			margin: 10px 0;
+		}
+		
+		.card-subtitle {
+			font-size: 18px;
+			color: gray;
+		}
+		
+		.card-btn {
+			background-color: white;
+			color: black;
+			font-weight: bold;
+			padding: 10px 20px;
+			border-radius: 8px;
+			text-decoration: none;
+			transition: 0.3s;
+			margin-top: auto; 
+		}
+		
+		.card-btn:hover {
+			background-color: grey;
+			color: white;
+			transition: 0.3s ease-in-out;
+		}
+		
+		.all-card {
+			display: flex;
+			gap: 10px;
+			justify-content: center;
+			align-items: flex-end;
+			margin-top: 20px;
+		}
+		
+		.k-btn {
+			background-color: white;
+			color: black;
+			font-weight: bold;
+			padding: 10px 10px;
+			margin-bottom: 200px;
+			border-radius: 8px;
+			text-decoration: none;
+			transition: 0.3s;
+			display: flex;
+			gap: 25px;
+		}
+		
+		.k-btn:hover {
+			background-color: grey;
+			color: white;
+			transition: 0.3s ease-in-out;
+		}
+	</style>
+<body>
+	<nav class="navbar">
+		<ul class="nav-links">
+			<li><a class="link-navbar" href="index.html">Home</a></li>
+			<li><a class="link-navbar" href="Profilku.html">About</a></li>
+			<li><a class="link-navbar" href="game.html">Game</a></li>
+		</ul>
+	</nav>
+	<div class="all-card">
+	<div class = "card">
+		<img src="assets/img/AB.jpg" class="card-img">
+		<h3 class="card-title">Arena Breakout</h3>
+		<button class="card-btn">
+			<a href="https://www.arenabreakout.com/#/" target="_blank">Details</a>
+		</button>
+	</div>
+	<div class = "card">
+		<img src="assets/img/BS.jpg" class="card-img">
+		<h3 class="card-title">Blood Strike</h3>
+		<button class="card-btn">
+			<a href="https://www.blood-strike.com/" target="_blank">Details</a>
+		</button>
+	</div>
+	<div class = "card">
+		<img src="assets/img/WT.png" class="card-img">
+		<h3 class="card-title">War Thunder</h3>
+		<button class="card-btn">
+			<a href="https://warthunder.com/en" target="_blank">Details</a>
+		</button>
+	</div>
+	<div class = "card">
+		<img src="assets/img/GT.jpg" class="card-img">
+		<h3 class="card-title">Guardian Tales</h3>
+		<button class="card-btn">
+			<a href="https://www.guardiantales.com/" target="_blank">Details</a>
+		</button>
+	</div>
+	<div class = "card">
+		<img src="assets/img/sky.png" class="card-img">
+		<h3 class="card-title">Sky : COTL</h3>
+		<button class="card-btn">
+			<a href="https://www.thatskygame.com/" target="_blank">Details</a>
+		</button>
+	</div>
+</body>
+</html>
